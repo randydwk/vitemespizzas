@@ -1,0 +1,176 @@
+{
+  "id": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+  "name": "vitemespizzas",
+  "requests": [
+    {
+      "id": "3c596ad0-b2c7-48bf-aaac-0ac89b014541",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "curl -i -X GET http://localhost:8080/vitemespizzas/commandes/2/prixfinal",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "d79d33cf-b4ff-4759-b540-dbc13ef0856e",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "curl -i -X GET http://localhost:8080/vitemespizzas/commandes/1",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "dbbedace-b2f5-4ee0-935d-02b1615e605a",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/commandes",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "fc485839-f211-496d-a5a8-aabb2529631a",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/ingredients",
+      "headers": "\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "3313e0cb-2be7-45ad-b241-a80cd3fa8f4d",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/ingredients/1",
+      "headers": "\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "30bca99a-dfc8-4631-9cca-79eaab75b9d4",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/ingredients/1/name",
+      "headers": "\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "40b27914-185d-46a1-8202-c4b885ed0bc0",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "POST",
+      "url": "http://localhost:8080/vitemespizzas/ingredients",
+      "headers": "Content-Type: application/json\nAuthorization: token\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "1a48feec-faa4-4690-a737-f68baaf83f0d",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "DELETE",
+      "url": "http://localhost:8080/vitemespizzas/ingredients/20",
+      "headers": "Content-Type: application/json\nAuthorization: token\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "057224a6-d129-4d74-90b8-708d9b1f1693",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/pizzas",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "d748d8b1-3afe-4fa9-a5e9-ba8f6c1bc481",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/pizzas/1",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "343560f4-fcf2-443b-b17c-90110382f4e6",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "POST",
+      "url": "http://localhost:8080/vitemespizzas/pizzas/",
+      "headers": "Content-Type: application/json\nAuthorization: token\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "0cc43b0e-3748-4980-b1c2-cf0aa9e36f09",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "DELETE",
+      "url": "http://localhost:8080/vitemespizzas/pizzas/10",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "1b90e685-8b9f-4345-865e-0e46e6b27d4d",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "PATCH",
+      "url": "http://localhost:8080/vitemespizzas/pizzas/1",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "4096c077-de85-4e40-855b-8f6c376bffba",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "POST",
+      "url": "http://localhost:8080/vitemespizzas/pizzas/1",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "7c5dfcc2-65f7-44ae-9077-4c9567027862",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "DELETE",
+      "url": "http://localhost:8080/vitemespizzas/pizzas/3/6",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "194714ba-0bf1-4d32-95b5-164c21c0d3df",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/pizzas/1/prixfinal",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    },
+    {
+      "id": "7806e2b9-849d-4ac9-b336-4a2c7fdb91c8",
+      "collectionId": "60f98963-05e7-4f7a-963b-b8c01dc01dca",
+      "method": "GET",
+      "url": "http://localhost:8080/vitemespizzas/users/token?login=jean&pwd=jean",
+      "headers": "Content-Type: application/json\n",
+      "data": [],
+      "dataMode": "raw",
+      "rawModeData": []
+    }
+  ]
+}
